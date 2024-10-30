@@ -9,4 +9,4 @@ We’d love to hear from you! Whether you’re a fellow gamer, potential collabo
 
 Your support helps fuel my journey as an indie game developer. If you enjoy my work and want to help me create more, consider [**buying me a coffee!** ](https://buymeacoffee.com/redping)Every contribution, big or small, goes directly into making better games and stories for you.
 
-<p>Stay connected and explore more of my work on social media. Check out all my links here: <a href="https://linktr.ee/RedpingGames" target="_blank">Linktree</a>.</p>
+Stay connected and explore more of my work on social media. Check out all my links here: <a href="https://linktr.ee/RedpingGames" target="_blank">Linktree</a>.
