@@ -11,5 +11,22 @@
       {{ with .Resources.Get .Params.image }}<img src="{{ .RelPermalink }}" alt="{{ $.Title }}" />{{ end }}
       {{ .Content }}
     </div>
+     <!-- Giscus 댓글 시스템 -->
+     <div id="giscus-comments"></div>
+     <script src="https://giscus.app/client.js"
+         data-repo="RedpingDev/RedpingBlog"
+         data-repo-id="R_kgDONH1-tg"
+         data-category="Show and tell"
+         data-category-id="DIC_kwDONH1-ts4Cj0RP"
+         data-mapping="pathname"
+         data-strict="0"
+         data-reactions-enabled="1"
+         data-emit-metadata="0"
+         data-input-position="bottom"
+         data-theme="preferred_color_scheme"
+         data-lang="ko"
+         crossorigin="anonymous"
+         async>
+     </script>
   </div>
 {{ end }}
