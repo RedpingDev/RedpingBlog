@@ -2,6 +2,27 @@ import React from "react";
 import format from "date-fns/format";
 
 export default class PostPreview extends React.Component {
+  componentDidMount() {
+    // Giscus 스크립트를 동적으로 생성하여 추가합니다.
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.setAttribute("data-repo", "RedpingDev/RedpingBlog");
+    script.setAttribute("data-repo-id", "R_kgDONH1-tg");
+    script.setAttribute("data-category", "Show and tell");
+    script.setAttribute("data-category-id", "DIC_kwDONH1-ts4Cj0RP");
+    script.setAttribute("data-mapping", "pathname");
+    script.setAttribute("data-strict", "0");
+    script.setAttribute("data-reactions-enabled", "1");
+    script.setAttribute("data-emit-metadata", "0");
+    script.setAttribute("data-input-position", "bottom");
+    script.setAttribute("data-theme", "preferred_color_scheme");
+    script.setAttribute("data-lang", "ko");
+    script.crossOrigin = "anonymous";
+    script.async = true;
+
+    document.getElementById("giscus-comments").appendChild(script);
+  }
+
   render() {
     const { entry, widgetFor, getAsset } = this.props;
     const image = getAsset(entry.getIn(["data", "image"]));
@@ -17,26 +38,9 @@ export default class PostPreview extends React.Component {
           <p>{entry.getIn(["data", "description"])}</p>
           {image && <img src={image} alt={entry.getIn(["data", "title"])} />}
           {widgetFor("body")}
-          
-          {/* Giscus 댓글 시스템 */}
-          <div id="giscus-comments">
-            <script src="https://giscus.app/client.js"
-              data-repo="RedpingDev/RedpingBlog"
-              data-repo-id="R_kgDONH1-tg"
-              data-category="Show and tell"
-              data-category-id="DIC_kwDONH1-ts4Cj0RP"
-              data-mapping="pathname"
-              data-strict="0"
-              data-reactions-enabled="1"
-              data-emit-metadata="0"
-              data-input-position="bottom"
-              data-theme="preferred_color_scheme"
-              data-lang="ko"
-              crossorigin="anonymous"
-              async>
-            </script>
-          </div>
         </div>
+
+        <div id="giscus-comments"></div>
       </div>
     );
   }
