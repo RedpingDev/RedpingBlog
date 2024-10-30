@@ -1,19 +1,18 @@
 ---
-title: Redping Indie game site
-subtitle: Support sustainable farming while enjoying a cup
-image: /img/home-jumbotron.jpg
+title: Redping Indie Game Blog
+subtitle: '"Crafting unique stories for the adventurous gamer."'
+image: img/mainmenu.jpeg
 blurb:
-  heading: Why Kaldi?
-  text: Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+  heading: '"Immerse Yourself in a New World"'
+  text: Every game by Redping invites you to explore worlds filled with wonder,
+    challenge, and unforgettable stories. Get ready to experience games crafted
+    with passion, for players who seek something truly different.
 intro:
-  heading: What we offer
-  text: Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone.
+  heading: '"Welcome to Redping"'
+  text: Redping is a dedicated indie game studio focused on creating immersive,
+    heartfelt experiences that challenge conventions. Our mission is to bring
+    players into worlds crafted with passion and originality, where every pixel
+    tells a story.
 products:
   - image: img/illustrations-coffee.svg
     text: We sell green and roasted coffee beans that are sourced directly from
@@ -28,8 +27,8 @@ products:
       fall in love with in our shop.
 values:
   heading: Our values
-  text: Coffee is an amazing part of human culture but it has a dark side too –
-    one of colonialism and mindless abuse of natural resources and human lives.
-    We want to turn this around and return the coffee trade to the drink’s
-    exhilarating, empowering and unifying nature.
+  text: We are a small team, but we pour big dreams into every project. Redping
+    values creativity, player engagement, and storytelling. We strive to connect
+    with players who value originality and seek gaming experiences that stay
+    with them long after the screen fades to black.
 ---
