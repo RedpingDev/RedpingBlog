@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://redpingdev.netlify.app/"
 languageCode = "en-us"
 languageLang = "en"
 title = "Redping"
