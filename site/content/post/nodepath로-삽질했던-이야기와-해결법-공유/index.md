@@ -39,9 +39,9 @@ var target_node = get_node(my_node_path)
 이 글이 NodePath 때문에 고민하는 다른 개발자분들께 작은 도움이 되길 바라며, 또 삽질하지 않도록 같이 화이팅입니다! 😊\
 \
 혹시 이 글이 도움이 되었다면, 작은 커피 한 잔으로 응원해 주시면 큰 힘이 될 거예요. 덕분에 더 많은 개발 팁과 삽질 이야기로 찾아올 수 있을 테니까요! \
-☕ [\[Buy Me a Coffee link]](https://buymeacoffee.com/redping)
+☕ [[Buy Me a Coffee link](https://buymeacoffee.com/redping)]
 
 또 다른 이야기나 개발 여정을 보고 싶다면, 아래 제 링크 트리에서 다양한 소셜 채널도 확인해 주세요. 재미있게 봐 주시면 감사하겠습니다! \
-🌲[ \[my Link tree]](https://linktr.ee/RedpingGames)\
+🌲[[my Link tree](https://linktr.ee/RedpingGames)]\
 \
 끝까지 읽어주셔서 감사합니다. 앞으로도 같이 배우고 성장해요! 🙌
